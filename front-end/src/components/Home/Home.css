@@ -1,14 +1,3 @@
-header{
-    background-color: var(--color-header) ;
-    padding: 1rem;
-  }
-  
-  header a{
-    color: var(--color-link);
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
   .products{
     display: flex;
     flex-wrap: wrap;
@@ -27,8 +16,4 @@ header{
   
   .product-info{
     padding: 1rem;
-  }
-  
-  main h1{
-    padding-left: 1rem;
   }

@@ -1,0 +1,8 @@
+.product {
+  background-color: whitesmoke;
+  display: flex;
+  text-align: center;
+  -webkit-box-shadow: 1px 3px 12px 4px #8a8a8a;
+  -moz-box-shadow: 1px 3px 12px 4px #8a8a8a;
+  box-shadow: 1px 3px 12px 4px #8a8a8a;
+}
