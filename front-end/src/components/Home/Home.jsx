@@ -54,9 +54,9 @@ export default function Home() {
         ) : error ? (
           <div>{error}</div>
         ) : (
-          <Row>
+          <Row className='teste-btn'>
             {products.map((product) => (
-            <Col sm={6} md={4} lg={3} className='mb-3'>
+            <Col key={product.categoryName} sm={6} md={4} lg={3} className='mb-3'>
               <Product1 product={product}></Product1>
             </Col>
             ))}

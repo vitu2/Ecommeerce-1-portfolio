@@ -16,7 +16,7 @@ function App() {
             <Container>
               <LinkContainer to="/">
                 <Navbar.Brand>
-                  <img src={img1} alt="" width="125px" />
+                  <img src={img1} alt="Logo" width="125px" />
                 </Navbar.Brand>
               </LinkContainer>
             </Container>
@@ -25,7 +25,7 @@ function App() {
         <main>
           <Container>
             <Routes>
-              <Route path="/product/:slug" element={<Product />} />
+              <Route path="/product/:categoryName" element={<Product />} />
               <Route path="/" element={<Home />} />
             </Routes>
           </Container>

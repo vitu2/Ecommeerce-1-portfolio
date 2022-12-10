@@ -5,4 +5,21 @@
   -webkit-box-shadow: 1px 3px 12px 4px #8a8a8a;
   -moz-box-shadow: 1px 3px 12px 4px #8a8a8a;
   box-shadow: 1px 3px 12px 4px #8a8a8a;
+  height: 480px;
+}
+
+.title-small{
+  font-size: 17px;
+  height: 80px;
+}
+
+.btn-primary{
+  background-color: #66B2B2;
+  color: black;
+  border: none;
+}
+
+.btn-primary:hover{
+  background-color: #C1E0E0;
+  color: black;
 }

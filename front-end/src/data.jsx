@@ -1,57 +1,53 @@
 const data = {
-    products: [
-      {
-        name: 'Nike shirt',
-        slug: 'nike-slim-shirt',
-        category: 'Shirts',
-        image: 'https://images.tcdn.com.br/img/img_prod/1035079/90_camiseta_nike_dr_academy_masculina_preta_457_1_7c2013f5cad4df41b5c6ac3afe6544f7.jpg',
-        price: 120,
-        countInStock: 10,
-        brand: 'Nike',
-        rating: 4.5,
-        numReviews: 10,
-        description: 'high quality shirt',
-      },
-
-      {
-        name: 'Adidas Shirt',
-        slug: 'adidas-fit-shirt',
-        category: 'Shirts',
-        image: 'https://cdn.awsli.com.br/300x300/547/547994/produto/141819718/f5efa0347a.jpg',
-        price: 250,
-        countInStock: 20,
-        brand: 'Adidas',
-        rating: 4.0,
-        numReviews: 10,
-        description: 'high quality product',
-      },
-
-      {
-        name: 'Nike Slim Pant',
-        slug: 'nike-slim-pant',
-        category: 'Pants',
-        image: 'https://authenticfeet.vteximg.com.br/arquivos/ids/255282-300-300/Calca-Nike-Club-Masculina-Preto.jpg?v=637850278017700000',
-        price: 25,
-        countInStock: 15,
-        brand: 'Nike',
-        rating: 4.5,
-        numReviews: 14,
-        description: 'high quality product',
-      },
-
-      {
-        name: 'Adidas Pant',
-        slug: 'adidas-fit-pant',
-        category: 'Pants',
-        image: 'https://www.skipperbar.co.za/wp-content/uploads/2022/09/ezgif.com-gif-maker-7-300x300.jpg',
-        price: 65,
-        countInStock: 5,
-        brand: 'Adidas',
-        rating: 4.5,
-        numReviews: 10,
-        description: 'high quality product',
-      },
-      
-    ],
-  };
-  export default data;
+  products: [
+    {
+      "offerName": "Smart Tv Philips 65; 4k Led Android Tv 60hz",
+      "sellerId": 5727,
+      "sellerThumbnail": "https://www.lomadee.com/programas/BR/5727/imagemBox_80x60.png",
+      "offerLink": "https://redir.lomadee.com/v2/3435f15df78",
+      "offerThumbnail": "https://www.girafa.com.br/imagens/Eletronicos/Televisores/smart-tv-philips-65-4k-uhd-led-android-tv-60hz-65pug7406-78-897858-1667854426-8.jpg",
+      "sellerName": "Girafa",
+      "priceTo": 3443.33,
+      "sku": 897858,
+      "categoryName": "Eletrônicos",
+      "categoryId": 1
+    },
+    {
+      "offerName": "Samsung Galaxy S22 Ultra 5g 256 Gb Preto 6.8",
+      "sellerId": 5727,
+      "sellerThumbnail": "https://www.lomadee.com/programas/BR/5727/imagemBox_80x60.png",
+      "offerLink": "https://redir.lomadee.com/v2/34311f8b180",
+      "offerThumbnail": "https://www.girafa.com.br/imagens/Telefonia/Celulares/smartphone-samsung-galaxy-s22-ultra-preto-256gb-12gb-ram-6-8-cam-quad108mp-10mp-12mp-10mp-selfie40mp-898106-1644956802-1.jpg",
+      "sellerName": "Girafa",
+      "priceTo": 7776.67,
+      "sku": 898106,
+      "categoryName": "Conserto de Celulares",
+      "categoryId": 8421
+    },
+    {
+      "offerName": "Smartphone Samsung Galaxy S22 5g 256 Gb 6.1",
+      "sellerId": 5727,
+      "sellerThumbnail": "https://www.lomadee.com/programas/BR/5727/imagemBox_80x60.png",
+      "offerLink": "https://redir.lomadee.com/v2/3431a49ff48",
+      "offerThumbnail": "https://www.girafa.com.br/imagens/Telefonia/Celulares/smartphone-samsung-galaxy-s22-5g-branco-256gb-8gb-ram-6-1-cam-tripla-50mp-10mp-12mp-e-selfie-10mp-898097-1644522733-1.jpg",
+      "sellerName": "Girafa",
+      "priceTo": 6499.9,
+      "sku": 898097,
+      "categoryName": "Conserto de Celulares",
+      "categoryId": 8421
+    },
+    {
+      "offerName": "Smart Tv Samsung 70 4k Tela Sem Limites Visual Livre De Cabos ",
+      "sellerId": 5727,
+      "sellerThumbnail": "https://www.lomadee.com/programas/BR/5727/imagemBox_80x60.png",
+      "offerLink": "https://redir.lomadee.com/v2/343dea3e879",
+      "offerThumbnail": "https://www.girafa.com.br/imagens/Eletronicos/Televisores/smart-tv-samsung-70-uhd-4k-70au7700-processador-crystal-4k-tela-sem-limites-visual-livre-de-cabos-alexa-built-in-controle-unico-893266-1667495224-2.jpg",
+      "sellerName": "Girafa",
+      "priceTo": 5399,
+      "sku": 893266,
+      "categoryName": "Eletrônicos",
+      "categoryId": 1
+    }
+  ],
+};
+export default data;
