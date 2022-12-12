@@ -37,7 +37,7 @@ export default function Product() {
       dispatch({ type: 'FETCH_REQUEST' });
       try {
         const result = await axios.get(
-          `http://localhost:5000/api/products/slug/${categoryName}`
+          `https://testando-api.onrender.com/api/products/slug/${categoryName}`
         );
         dispatch({ type: 'FETCH_SUCCESS', payload: result.data });
       } catch (err) {
